@@ -376,37 +376,41 @@
         <!-- Contact Form -->
         <div class="contact-form">
 
-            <form>
+            <form id="contactForm">
 
-                <input
-                    type="text"
-                    placeholder="Your Name"
-                    required
-                >
+    <input
+        type="text"
+        name="name"
+        placeholder="Your Name"
+        required
+    >
 
-                <input
-                    type="email"
-                    placeholder="Your Email"
-                    required
-                >
+    <input
+        type="email"
+        name="email"
+        placeholder="Your Email"
+        required
+    >
 
-                <input
-                    type="text"
-                    placeholder="Subject"
-                    required
-                >
+    <input
+        type="text"
+        name="subject"
+        placeholder="Subject"
+        required
+    >
 
-                <textarea
-                    rows="6"
-                    placeholder="Your Message"
-                    required
-                ></textarea>
+    <textarea
+        name="message"
+        rows="6"
+        placeholder="Your Message"
+        required
+    ></textarea>
 
-                <button type="submit">
-                    Send Message
-                </button>
+    <button type="submit">
+        Send Message
+    </button>
 
-            </form>
+</form>
 
         </div>
 
@@ -436,6 +440,7 @@
     </div>
 
 </footer>
+<script src="script.js"></script>
 
 </body>
 </html>
